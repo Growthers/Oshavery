@@ -1,28 +1,26 @@
-# Oshavery: A Discord-like Chat App
+# Oshavery: A Discord-like Chat Application
 
-[English README Available](https://github.com/Undecided-Discord/Oshavery/blob/main/README-en.md)
+## What is Oshavery?
+Oshavery is Discord/Slack-like Chat Application from Japan.  
 
-Oshaveryはギルド単位で独立したサーバを持つ分散型SNSを作ることを目標としたプロジェクトです
+`Oshavery (Oshaberi)` means Chat in Japanese. 
 
-## Oshaveryとは
-今日、DiscordやSlackといったツールは多くのコミュニティで使用されています。 しかし、権限の調整やメッセージ件数の上限など無料で使える枠に上限があり、学生が主体となったコミュニティでは使いにくいという問題があります。  
-Oshaveryはこういった問題を改善するために立ち上げられたプロジェクトです。
+## Repository
+[Client](https://github.com/Undecided-Discord/Oshavery-Front)  
+[Backend](https://github.com/Undecided-Discord/Oshavery-Server)
 
-## リポジトリ
-[クライアント](https://github.com/Undecided-Discord/Oshavery-Front)  
-[バックエンド](https://github.com/Undecided-Discord/Oshavery-Server)
+## Deployment
 
-## 技術スタック
-フロントエンド  
-- TypeScript
-- Next.js  
+Tech stack:  
+- Frontend: 
+    - TypeScript
+    - Next.js
+- Backend:  
+    - TypeScript
+    - Fastify
+    - Prisma 2
 
-バックエンド:  
-  - TypeScript
-  - Fastify
-  - Prisma 2
-
-動作要件:
+Requirements:
 - MariaDB
 - Node.js 14+
 - Yarn 2+
@@ -45,7 +43,7 @@ Oshaveryはこういった問題を改善するために立ち上げられたプ
 
 ## Special Thanks
 
-### Oshavery Icons & Logo
+### Oshavery Icons & Logo Designer
 
 |  <img src="https://github.com/Nanai10a.png" width="110px"> |
 | :--------: |
