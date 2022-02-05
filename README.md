@@ -9,8 +9,8 @@ Oshaveryはギルド単位で独立したサーバを持つ分散型SNSを作る
 Oshaveryはこういった問題を改善するために立ち上げられたプロジェクトです。
 
 ## リポジトリ
-[クライアント](https://github.com/Undecided-Discord/Oshavery-Front)  
-[バックエンド](https://github.com/Undecided-Discord/Oshavery-Server)
+[クライアント](https://github.com/Growthers/Oshavery-Front)  
+[バックエンド](https://github.com/Growthers/Oshavery-Server)
 
 ## 技術スタック
 フロントエンド  
@@ -29,13 +29,13 @@ Oshaveryはこういった問題を改善するために立ち上げられたプ
 
 ## Authors
 ### Server
-|  <img src="https://github.com/sigumaa.png" width="130px"> | <img src="https://github.com/yusuke4869.png" width="130px"> | <img src="https://github.com/laminne.png" width="130px"> | <img src="https://github.com/sobonn.png" width="130px"> |
-| :--------: | :--------: | :--------: | :---: |
-| **Sigumaa**<br>👔 🔧 | **yusuke4869**<br>🧢 🔧 | **laminne**<br>🔧 | **sobonn**<br>🔧 |  
+| <img src="https://github.com/sigumaa.png" width="130px"> | <img src="https://github.com/yusuke4869.png" width="130px"> | <img src="https://github.com/laminne.png" width="130px"> | <img src="https://github.com/sobonn.png" width="130px"> |
+|:--------------------------------------------------------:|:-----------------------------------------------------------:|:--------------------------------------------------------:|:-------------------------------------------------------:|
+|                   **Sigumaa**<br>👔 🔧                   |                   **yusuke4869**<br>🧢 🔧                   |                    **laminne**<br>🔧                     |                    **sobonn**<br>🔧                     |  
 ### Front
-|  <a href="https://github.com/YukiYuigishi"><img src="https://github.com/YukiYuigishi.png" width="130px"></a> | <a href="https://github.com/kato-k"><img src="https://github.com/kat0h.png" width="130px"></a> | <a href="https://github.com/sayoi341"><img src="https://github.com/sayoi341.png" width="130px"></a> | <a href="https://github.com/nekosan00"><img src="https://github.com/nekosan00.png" width="130px"></a> |
-| :--------: | :--------: | :--------: | :---: |
-| **Yuki Yuigishi**<br>👔 🔧 | **Kota Kato**<br>🔧 | **sayoi341**<br>🔧 | **nekoP**<br>✨ |
+| <a href="https://github.com/YukiYuigishi"><img src="https://github.com/YukiYuigishi.png" width="130px"></a> | <a href="https://github.com/kato-k"><img src="https://github.com/kat0h.png" width="130px"></a> | <a href="https://github.com/sayoi341"><img src="https://github.com/sayoi341.png" width="130px"></a> | <a href="https://github.com/nekosan00"><img src="https://github.com/nekosan00.png" width="130px"></a> |
+|:-----------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------:|
+|                                         **Yuki Yuigishi**<br>👔 🔧                                          |                                      **Kota Kato**<br>🔧                                       |                                         **sayoi341**<br>🔧                                          |                                            **nekoP**<br>✨                                             |
 
 
 🔧: Developer  

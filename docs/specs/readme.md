@@ -1,10 +1,9 @@
-# Oshavery Spectification v0.1
+# Oshavery Specification
 
-Oshaveryの仕様です(一部不確定要素を含む)
+Oshaveryの仕様です
 
-[ユーザーアカウント](account.md)  
-[インスタンス](instance.md)  
-[チャンネル](channel.md)  
-[ギルド](guild.md)  
-[メッセージ](message.md)  
-[メディア](media.md)  
+| バージョン                     | ステータス | 備考  |
+|---------------------------|-------|-----|
+| [v0.1.0](./v01/readme.md) | 廃止    |     |
+| [v0.2.0](./v02/readme.md) | 最新版   |     |
+
