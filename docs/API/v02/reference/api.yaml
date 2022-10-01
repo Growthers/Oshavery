@@ -1,0 +1,156 @@
+openapi: 3.1.0
+info:
+  title: Oshavery API
+  version: '0.2'
+  summary: Oshavery API v02です
+servers:
+  - url: 'http://localhost:3000'
+    description: Localhost
+  - url: 'https://oshavery-app.net/api/v2'
+    description: ''
+paths:
+  /:
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/top'
+              examples:
+                example:
+                  value:
+                    version: 0.2.0
+                    features:
+                      voice:
+                        enabled: true
+                        url: vc01.oshavery-app.net
+                      notification:
+                        enabled: true
+                        url: oshavery-app.net/api/v1/ws
+      operationId: get-top
+      description: ''
+    parameters: []
+  '/users/{userId}':
+    parameters:
+      - schema:
+          type: string
+        name: userId
+        in: path
+        required: true
+        description: ユーザーID
+    get:
+      summary: Your GET endpoint
+      tags: []
+      responses: {}
+      operationId: get-users-userId
+      description: ''
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/user'
+components:
+  schemas:
+    top:
+      title: top
+      x-stoplight:
+        id: i1vcnqy841fdg
+      type: object
+      description: APIルートで返す情報
+      examples:
+        - version: 0.2.0
+          features:
+            voice:
+              enabled: true
+              url: vc01.oshavery-app.net
+            notification:
+              enabled: true
+              url: oshavery-app.net/api/v1/ws
+      properties:
+        version:
+          type: string
+        features:
+          type: object
+          required:
+            - voice
+            - notification
+          properties:
+            voice:
+              type: object
+              required:
+                - enabled
+                - url
+              properties:
+                enabled:
+                  type: boolean
+                url:
+                  type: string
+            notification:
+              type: object
+              required:
+                - enabled
+                - url
+              properties:
+                enabled:
+                  type: boolean
+                url:
+                  type: string
+      required:
+        - version
+        - features
+    user:
+      title: User
+      x-stoplight:
+        id: v9g8e4gcdlflq
+      type: object
+      properties:
+        id:
+          type: string
+        icon:
+          type: string
+        mail:
+          type: string
+        name:
+          type: string
+      description: ユーザー
+    user_profiles:
+      title: User_profiles
+      x-stoplight:
+        id: tegw2gho3tr6k
+      type: object
+      properties:
+        id:
+          type: string
+        guildId:
+          type: string
+        icon:
+          type: string
+      description: ユーザープロフィール
+    guild:
+      title: guild
+      x-stoplight:
+        id: fbcm3tovwpbx8
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        icon:
+          type: string
+        owner_id:
+          type: string
+        roles:
+          type: array
+          items:
+            type: object
+        emojis:
+          type: array
+          items:
+            type: object
+      description: ギルド
+  securitySchemes: {}
